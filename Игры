@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборник игр «Игры на подумать: 5 минут для ума»</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f0f7ff;
+        }
+        .container {
+            background-color: white;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+            border-left: 4px solid #4CAF50;
+            padding-left: 15px;
+        }
+        .author {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .download-area {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #e8f5e9;
+            border-radius: 15px;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+        .qr-area {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 15px;
+        }
+        .game-list {
+            background-color: #f8f9fa;
+            padding: 15px 25px;
+            border-radius: 10px;
+        }
+        .game-list li {
+            margin: 8px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #95a5a6;
+            font-size: 13px;
+        }
+        .note {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎲 «Игры на подумать: 5 минут для ума»</h1>
+        <div class="author">
+            <strong>Автор:</strong> Ларионова Варвара Александровна<br>
+            Самарский социально-педагогический колледж, 2026
+        </div>
+        
+        <h2>📖 О сборнике</h2>
+        <p>Сборник предназначен для учителей начальных классов, педагогов-психологов и студентов педагогических специальностей. В нём представлены <strong>6 игр</strong> для развития критического мышления у детей 7-10 лет.</p>
+        
+        <p><strong>Особенности игр:</strong></p>
+        <ul>
+            <li>✅ Не требуют специальных материалов</li>
+            <li>✅ Занимают 5-7 минут</li>
+            <li>✅ Не имеют единственного правильного ответа</li>
+            <li>✅ После каждой игры есть вопросы для обсуждения</li>
+        </ul>
+        
+        <h2>🎮 Содержание сборника</h2>
+        <div class="game-list">
+            <ul>
+                <li><strong>Игра 1.</strong> «А что, если наоборот?» — развитие анализа, гибкости мышления</li>
+                <li><strong>Игра 2.</strong> «Спорщики» — развитие аргументации, умения убеждать</li>
+                <li><strong>Игра 3.</strong> «Почему? А на самом деле?» — поиск скрытых причин событий</li>
+                <li><strong>Игра 4.</strong> «Взвесь аргументы» — умение принимать взвешенные решения</li>
+                <li><strong>Игра 5.</strong> «Логический детектив» — проверка версий, поиск причинно-следственных связей</li>
+                <li><strong>Игра 6.</strong> «Хорошо и плохо» — умение видеть разные стороны явлений</li>
+            </ul>
+        </div>
+        
+        <div class="download-area">
+            <h2>📥 Скачать сборник</h2>
+            <a href="sbornik.pdf" class="download-btn" download>📄 Скачать PDF (для печати)</a>
+            <p style="margin-top: 15px; font-size: 14px;">Распечатайте карточки, вырежьте их и используйте на уроках или переменах.</p>
+        </div>
+        
+        <div class="qr-area">
+            <h2>📱 QR-код на этот сайт</h2>
+            <p>Наведите камеру телефона на QR-код, чтобы открыть сайт со сборником</p>
+            <div style="background-color: white; display: inline-block; padding: 15px; border-radius: 10px;">
+                <p style="font-size: 12px; color: #999;">[ЗДЕСЬ БУДЕТ QR-КОД ПОСЛЕ ПУБЛИКАЦИИ САЙТА]</p>
+            </div>
+            <p style="font-size: 12px; margin-top: 10px;">Или перейдите по ссылке: <br> <strong id="site-url"></strong></p>
+        </div>
+        
+        <div class="note">
+            <strong>💡 Как использовать сборник:</strong><br>
+            Скачайте PDF-файл, распечатайте карточки (на одном листе А4 помещается 2 карточки), вырежьте их. Рекомендуется заламинировать карточки для долговечности. Носите с собой и используйте в любой момент — на уроке, на перемене, на внеурочном занятии.
+        </div>
+        
+        <div class="footer">
+            Индивидуальный проект студентки 12 группы<br>
+            специальность «Коррекционная педагогика в начальном образовании»
+        </div>
+    </div>
+    
+    <script>
+        // Показывает текущий адрес сайта
+        document.getElementById('site-url').innerHTML = window.location.href;
+    </script>
+</body>
+</html>
